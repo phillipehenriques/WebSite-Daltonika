@@ -1,0 +1,596 @@
+
+
+@font-face {
+    font-family:'Matcha Latte';
+    src:url("../fontes/Matcha Latte.ttf");
+}
+
+.copo {
+	width: 640px;
+	height: 340px;
+	margin: 20px auto;
+
+}
+
+body {
+	background: #000000;
+}
+
+.album {
+	background: #2B2B2B;
+	font-size: 16px;
+	color: white;
+	width: 30%;
+	height: 370px;
+	padding: 5px; 
+	margin-left: 5px;
+	border-radius: 12px;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+p {
+	text-align: center; 
+}
+
+.linha {
+	background-color: #1A1A1A;
+	width: 900px;
+	height: 100%;
+	padding: 10px;
+	margin-top: 0px;
+	position: relative;
+	margin-left: 500px;
+	border-radius: 12px;
+}
+
+img {
+	width: 100%;
+}
+
+.alinhar {
+	display: flex;
+	justify-content: center;
+
+}
+
+.alinhar-iniciativa {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.alinhar-diferente {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 250px;
+}
+
+.alinhar3 {
+	display: flex;
+
+}
+
+.container {
+	padding-top: 150px;
+	background: black;
+	/* url("../imagens/fundoproduto.png"); */
+
+	animation-duration: 1.5s;
+  animation-name: fadein;
+
+  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1.5s; /* Firefox < 16 */
+	-ms-animation: fadein 1.5s; /* Internet Explorer */
+	-o-animation: fadein 1.5s; /* Opera < 12.1 */
+
+}	
+
+.fontemenu {
+	color: #ffffff;
+	float: right;
+	position: right;
+	text-align: auto;
+	font-size: 18px;
+}	
+
+.rodape {
+	background-color: #1A1A1A;
+	position: fixed;
+	bottom:0;
+	width:100%;
+	height: 100px;
+	padding-top: 10px;
+	margin-top: 25px;
+}		
+
+.rodape-diferente {
+	background-color: #1A1A1A;
+	position: relative;
+	bottom:0;
+	width:100%;
+	height: 100px;
+	padding-top: 10px;
+	margin-top: 30px;
+}
+
+.texto-rodape {
+	color:  white;
+	font-size: 15px;
+}
+
+#navbar {
+	background-color: #1A1A1A;
+	position: fixed;
+	width: 100%;
+	height: 130px;
+	top: 0;
+	z-index: 21;
+}
+
+.caixa-texto-nav {
+	background-color: none;
+	width:auto;
+	height: 20px;
+	margin-top: 52px;
+	margin-right: 450px;
+}
+
+.logo {
+	background: none;
+	width: 30%;
+	height: 100px;
+	padding: 5px; 
+	float: left;
+	margin-left: 450px;
+	position: absolute;
+	width: 250px;
+	height: auto;
+	top: 28px;
+	animation: fadein 4s;
+
+	-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 4s; /* Firefox < 16 */
+	-ms-animation: fadein 4s; /* Internet Explorer */
+	-o-animation: fadein 4s; /* Opera < 12.1 */
+}
+
+.caixa-principal {
+	
+	background-color: none;
+	border-color: white;
+	width: 1142px;
+	height: 498px;
+	left: 235px;
+	align-content: center;
+	margin-top: 150px;
+	margin-bottom: 0px;
+
+	animation: fadein 2s;
+	
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	-ms-animation: fadein 2s; /* Internet Explorer */
+	-o-animation: fadein 2s; /* Opera < 12.1 */
+}
+
+.caixa2 {
+
+	background-color: none;
+	width: 550px;
+	height: 200px;
+	margin-left: 15px;
+	margin-top: 15px;
+
+	animation: fadein 2s;
+	
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	-ms-animation: fadein 2s; /* Internet Explorer */
+	-o-animation: fadein 2s; /* Opera < 12.1 */
+}
+
+.caixa3 {
+	background-color: none;
+	width: 550px;
+	height: 200px;
+	margin-left: 40px;
+	margin-top: 15px;
+
+	animation: fadein 2s;
+	
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	-ms-animation: fadein 2s; /* Internet Explorer */
+	-o-animation: fadein 2s; /* Opera < 12.1 */
+}
+
+.bloco {
+	background-color: none;
+	color: #ffffff;
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	right: 464px;
+	top: 315px;
+	padding: 5px 10px;
+
+}
+
+.texto-bloco {
+	text-align: center;
+	font-size: 25px;
+	font-family: Matcha Latte;
+}
+
+.foto-de-perfil {
+	background-color: none;
+	width: 100px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 130px;
+}
+
+.tela-de-login {
+	background-color: #1A1A1A;
+	width: 360px;
+	height: 450px;
+	border-radius: 21px;
+	margin-top: 200px;
+	margin-bottom: 120px;
+	animation-duration: 1.5s;
+  	animation-name: fadein;
+
+  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1.5s; /* Firefox < 16 */
+	-ms-animation: fadein 1.5s; /* Internet Explorer */
+	-o-animation: fadein 1.5s; /* Opera < 12.1 */
+	
+}
+
+.texto-welcome {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	color:  white;
+}
+
+.caixa-formulario {
+	background-color: none;
+	width: 150;
+	height: 125px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.login-e-senha {
+	margin-top: 5px;
+	color: white;
+}
+
+.contas {
+	background-color: blue;
+	width: 340px;
+	height: 20px;
+	color: #ffffff;
+}
+
+.alinhar-contas {
+	position: absolute;
+	margin-left: 10px;
+}
+
+.texto {
+	color: white;
+}
+
+.botao {
+	margin-top: 25px;				
+}
+
+.button {
+	margin-top: 25px;
+	background: #blue;
+	width: 100px;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 2px 2px 3px #eee;
+	text-shadow:none;
+	color: black;
+}
+
+.barrinha {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 330px;
+}
+
+.barrinha2 {
+	margin-top: 5px;
+	width: 350px;
+	height: 100px;
+}
+
+.foto-de-perfil {
+	background-color: none;
+	width: 100px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 130px;
+}
+
+.texto-posso-ajudar {
+	text-align: center;
+	margin-top: 50px;
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+.mensagem {
+	margin-top: 15px;
+	width: 350px;
+	height: 100px;
+}
+
+.nome-email-mensagem {
+	margin-top: 5px;
+	color: #ffffff;
+}
+
+.fale-conosco {
+	background-color: #1A1A1A;
+	width: 420px;
+	height: 380px;
+	border-radius: 21px 80px;
+	margin-top: 260px;
+	margin-bottom: 120px;
+	padding-top: 10px;
+	box-shadow: 10px 10px 13px black;
+	animation: fadein 2s;
+	
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	-ms-animation: fadein 2s; /* Internet Explorer */
+	-o-animation: fadein 2s; /* Opera < 12.1 */
+
+}
+
+.caixa-barrinha {
+	margin-top: 20px;
+}
+
+.alinhar2 {
+	display: flex;
+	justify-content: center;
+	margin-left: 650px;
+	position: relative;
+	z-index: 20;
+}
+
+.posso-ajudar-alinhar {
+	
+	float: right;
+	margin-right: 470px;
+	position: relative;
+	z-index: 20;
+}
+
+.barra-lateral {
+	background-color: #2B2B2B;
+	position: absolute;
+	bottom: 335px;
+	padding-left: 250px;;
+	width: 1660px;
+	height: 250px;
+}
+
+.caixa-barra {
+	background-color: #1A1A1A;
+	box-shadow: 10px 10px 13px black;
+	width: 500px;
+	height: 170px;
+	padding: 8px;
+	padding-left: 15px;
+	margin-top: 30px;
+	border-radius: 12px;
+}
+
+.texto-barra {
+	margin-left: 15px;
+	margin-top: 5px;
+	color: #ffffff;
+	font-size: 20px;
+
+}
+
+ .w-h {
+ 	margin: 5px;
+ }
+
+ .w-h2 {
+	margin: 5px;
+ 	margin-bottom: 20px; 
+ }
+
+ .barra-iniciativa {
+ 	background: url("../imagens/fundodelapis.jpg");
+ 	width: 100%;
+ 	height: 400px;
+ 	position: relative;
+ 	top: 140px;
+ }
+
+ .caixa-iniciativa {
+ 	background-color: #1A1A1A; 
+ 	color: #FFFFFF;
+ 	text-align: center;
+ 	font-size: 15px;
+ 	width: 550px;
+ 	height: 200px;
+ 	margin-right: 5px;
+ 	padding: 15px;
+ 	border-radius: 50px 15px;
+
+ 	animation: fadein 1.5s;
+	
+	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1.5s; /* Firefox < 16 */
+	-ms-animation: fadein 1.5s; /* Internet Explorer */
+	-o-animation: fadein 1.5s; /* Opera < 12.1 */
+ }
+
+ .form-submit-button {
+			
+	}
+
+.foto-de-perfil2 {
+	background-color: none;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 100px;
+	left: 850px;
+	z-index: 20;
+
+}
+
+.caixa-voadora {
+	background-color: #1A1A1A;
+	color: white;
+	width: 150px;
+	height: 870px;
+	position: absolute;
+	left: 320px;
+	top: 158px;
+	padding: 15px;
+	border-radius: 12px;
+}
+
+.texto-voador {
+	background-color: #2B2B2B;
+	text-align: center;
+	width: 130px;
+	height: 250px;
+	margin-bottom: 8px;
+	padding: 10px;
+	font-size: 25px;
+	border-radius: 12px;
+}
+
+.texto-voador > div > i {
+	text-align: left;
+	font-size: 17px;
+}
+
+.checkbox-container {
+	background-color: none;	
+}
+
+.caique {
+	background-color: none;
+	display: block;
+	font-size: 17px;
+	text-align: left;
+}
+
+.maga {
+	background-color: none;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.botao-nav {
+	font-size: 16px;
+	color: white;
+}
+
+.botao-nav:hover {
+	color: #333333;
+	animation-duration: 0.5s;
+}
+
+.categoria {
+	background-color: red;
+	text-align: center;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+
+}
+
+ /******************************* animações */
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+ /******************************* transições */
+
+ .album:hover {
+ 	background: white;
+ 	font-size: 15px;
+ 	transition: all 1s;;
+ 	color: black;
+ 	width: 31%;
+	padding: 5px;
+ }
+
+  .caixa-iniciativa:hover {
+	 	background: #2B2B2B;
+	 	width: 560px;
+	 	transition: all 0.5s;
+	 }
+
+ .form-submit-button:hover {
+	background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow:none;
+}
+
+.caixa-principal:hover {
+	width: 1122px;
+	transition: all 0.5s;
+}
+
+.caixa2:hover {
+	width: 530px;
+	transition: all 0.5s
+}
+
+.caixa3:hover {
+	width: 530px;
+	transition: all 0.5s
+}
+
+.caixa-barra:hover {
+	width: 490px;
+	height: 160px;
+	transition: all 0.5s;
+}
+
+.texto-barra:hover {
+	color: #ffffff;
+	font-size: 18px;
+	transition: all 0.5s;
